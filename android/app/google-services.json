@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "429367086897",
+    "project_id": "schieved",
+    "storage_bucket": "schieved.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429367086897:android:23b39de398e7ace0c52a10",
+        "android_client_info": {
+          "package_name": "com.lucid.schieved"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp2pWkrKnV_RXmY_iYy-7iDOBYB0QrBxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
