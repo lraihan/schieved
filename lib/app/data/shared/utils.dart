@@ -1,5 +1,6 @@
 //Layouter
 import 'package:flutter/material.dart';
+import 'package:get_storage/get_storage.dart';
 
 class Layouter extends StatelessWidget {
   final double? height;
@@ -17,3 +18,5 @@ class Layouter extends StatelessWidget {
     );
   }
 }
+
+  final getStorage = GetStorage();

@@ -58,6 +58,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '429367086897',
     projectId: 'schieved',
     storageBucket: 'schieved.appspot.com',
+    androidClientId: '429367086897-ll880jkdtvgou95gsg0dj8qaotpuqjrj.apps.googleusercontent.com',
+    iosClientId: '429367086897-p0ai4ltej8hsmsnnc5ddikqhnlihun2q.apps.googleusercontent.com',
     iosBundleId: 'com.lucid.schieved',
   );
 

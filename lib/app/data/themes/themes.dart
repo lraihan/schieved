@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:schieved/app/data/themes/color_themes.dart';
 
 ThemeData themeData = ThemeData(
@@ -16,12 +15,12 @@ ThemeData themeData = ThemeData(
   ),
   colorScheme:
       ColorScheme.fromSwatch(accentColor: secondaryColor).copyWith(primary: primaryColor, secondary: secondaryColor),
-  fontFamily: GoogleFonts.poppins().fontFamily,
+  fontFamily: 'Poppins',
   iconTheme: IconThemeData(color: primaryColor),
   textTheme: const TextTheme(
-    displayLarge: TextStyle(fontWeight: FontWeight.bold, fontSize: 57),
-    displayMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 45),
-    displaySmall: TextStyle(fontWeight: FontWeight.bold, fontSize: 36),
+    displayLarge: TextStyle(fontWeight: FontWeight.bold, fontSize: 56),
+    displayMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 42),
+    displaySmall: TextStyle(fontWeight: FontWeight.bold, fontSize: 32),
     headlineLarge: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
     headlineMedium: TextStyle(fontWeight: FontWeight.bold, fontSize: 22),
     headlineSmall: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
@@ -35,8 +34,5 @@ ThemeData themeData = ThemeData(
     bodyMedium: TextStyle(fontWeight: FontWeight.normal, fontSize: 14),
     bodySmall: TextStyle(fontWeight: FontWeight.normal, fontSize: 12),
   ).apply(displayColor: blackColor, bodyColor: blackColor, decorationColor: blackColor),
-  tabBarTheme: TabBarTheme(
-    labelStyle: GoogleFonts.poppins(fontWeight: FontWeight.bold, fontSize: 12),
-  ),
   appBarTheme: AppBarTheme(color: whiteColor),
 );

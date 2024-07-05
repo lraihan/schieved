@@ -1,12 +1,12 @@
-// ignore_for_file: non_constant_identifier_names
-
 import 'package:get/get.dart';
-import 'package:schieved/app/data/shared/shared_variables.dart';
 
+import '../data/shared/shared_variables.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/landing_page/bindings/landing_page_binding.dart';
 import '../modules/landing_page/views/landing_page_view.dart';
+
+// ignore_for_file: non_constant_identifier_names
 
 part 'app_routes.dart';
 
